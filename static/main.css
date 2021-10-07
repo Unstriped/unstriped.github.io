@@ -4,4 +4,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Helvetica, sans-serif;
+  background-color: #edfff2;
+  color: #041409;
+  font-size: 48px;
 }
