@@ -48,11 +48,11 @@ ul {
 }
 
 .something::before {
-  content: 'nothing'
+  content: 'NOTHING'
 }
 
 .something:hover::before, .something:active::before, .something:focus::before {
-  content: 'something';
+  content: 'SOMETHING';
 }
 
 @media (max-width: 640px) {
