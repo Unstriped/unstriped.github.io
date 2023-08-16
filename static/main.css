@@ -47,15 +47,12 @@ ul {
   text-align: center;
 }
 
-.something:hover::before {
-  content: 'something';
+.something::before {
+  content: 'nothing'
 }
 
-.something:hover > span, 
-.something:focus > span, 
-.something:active > span {
-  background: red;
-  display: none;
+.something:hover::before, .something:active::before, .something:focus::before {
+  content: 'something';
 }
 
 @media (max-width: 640px) {
