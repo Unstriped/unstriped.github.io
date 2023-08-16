@@ -53,27 +53,12 @@ ol {
 
 .something::before {
   content: 'NOTHING'
-  transition: all 0.2s linear;
-  animation-direction: reverse;
 }
 
 .something:hover::before, .something:active::before, .something:focus::before {
-  animation-fill-mode: forwards;
-  animation: changeContent 0.5s linear forwards;
+  content: 'SOMETHING';
 }
 
-@keyframes changeContent {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    content: "SOMETHING";
-  }
-}
 
 @media (max-width: 640px) {
 
