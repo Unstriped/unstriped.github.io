@@ -47,6 +47,17 @@ ul {
   text-align: center;
 }
 
+.something:hover::before {
+  content: 'something';
+}
+
+.something:hover > span, 
+.something:focus > span, 
+.something:active > span {
+  background: red;
+  display: none;
+}
+
 @media (max-width: 640px) {
 
   body {
