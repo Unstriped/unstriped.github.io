@@ -4,9 +4,39 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Helvetica, sans-serif;
-  background-color: #edfff2;
-  color: #041409;
-  font-size: 48px;
+}
+
+ol,
+ul {
+  list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  font-family: monospace;
+  background: red;
+  color: black;
+  padding: 48px;
+}
+
+
+ul {
+  background: black;
+  color: white;
+  width: fit-content;
+  font-size: 136px;
+  padding: 12px 36px;
+  text-align: center;
 }
