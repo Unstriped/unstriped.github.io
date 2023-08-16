@@ -50,7 +50,7 @@ ul {
 @media (max-width: 640px) {
 
   body {
-    justify-content: stretch !important;
+    align-items: stretch;
   }
   
   main {
@@ -58,6 +58,6 @@ ul {
   }
 
   ul {
-    width: 100% !important;
+    width: 100%;
   }
 }
