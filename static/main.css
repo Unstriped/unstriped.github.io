@@ -57,6 +57,10 @@ ul {
      flex-direction: column;
   }
 
+  section {
+    flex: 1;
+  }
+
   ul {
     width: 100%;
   }
