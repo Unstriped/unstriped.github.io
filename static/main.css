@@ -12,6 +12,10 @@ body {
   padding: 0;
 }
 
+p {
+  margin: 0;
+}
+
 ol,
 ul {
   list-style: none;
@@ -48,11 +52,11 @@ ul {
 }
 
 .something::before {
-  content: '\00a0 NOTHING \00a0 '
+  content: 'NOTHING'
 }
 
 .something:hover::before, .something:active::before, .something:focus::before {
-  content: '\00a0 SOMETHING \00a0 ';
+  content: 'SOMETHING';
 }
 
 @media (max-width: 640px) {
