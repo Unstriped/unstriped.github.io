@@ -48,6 +48,11 @@ ul {
 }
 
 @media (max-width: 640px) {
+
+  body {
+    justify-content: stretch;
+  }
+  
   main {
      flex-direction: column;
   }
