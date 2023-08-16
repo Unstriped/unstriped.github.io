@@ -27,16 +27,6 @@ main {
   display: flex;
 }
 
-@media (max-width: 640px) {
-  main {
-     flex-direction: column;
-  }
-
-  ul {
-    width: 100%;
-  }
-}
-
 section {
   display: flex;
   align-items: center;
@@ -55,4 +45,14 @@ ul {
   font-size: 8.5rem;
   padding: 0.75rem 2.25rem;
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  main {
+     flex-direction: column;
+  }
+
+  ul {
+    width: 100% !important;
+  }
 }
