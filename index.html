@@ -9,28 +9,14 @@
 <body>
 <main>
 <section>
-  <h1>
-      THERE IS <span class="something" onclick=""></span> TO SEE HERE
-  </h1>
+
 
   <p>testing stuff :)</p>
-  <a
-   href="https://app.bankid.com/?autostarttoken=sometoken&redirect=null"
-   >
-  Open Bankid
-  </a>
-  <br>
-  <a href="#" onclick="(function(){location.href = 'https://app.bankid.com/?autostarttoken=sometoken&redirect=null';})()">Click Me 1</a>
-  <br>
-  <a href="#" onclick="(function(){location = 'https://app.bankid.com/?autostarttoken=sometoken&redirect=null';})()">Click Me 2</a>
-  <br>
-  <a href="#" onclick="(function(){location.assign('https://app.bankid.com/?autostarttoken=sometoken&redirect=null');})()">Click Me 3</a>
-    <br>
-  <a href="#" onclick="(function(){location.href = 'bankid://app.bankid.com/?autostarttoken=sometoken&redirect=null';})()">Click Me 1</a>
-  <br>
-  <a href="#" onclick="(function(){location = 'bankid://app.bankid.com/?autostarttoken=sometoken&redirect=null';})()">Click Me 2</a>
-  <br>
-  <a href="#" onclick="(function(){location.assign('bankid://app.bankid.com/?autostarttoken=sometoken&redirect=null');})()">Click Me 3</a>
+
+
+  <a href="#" onclick="(function(){location.assign('https://app.bankid.com/?autostarttoken=sometoken&redirect=null');})()">Opens in same browser</a>
+
+  <a href="#" onclick="(function(){location.assign('bankid://app.bankid.com/?autostarttoken=sometoken&redirect=null');})()">Opens in app</a>
 
 </section>
 </main>
